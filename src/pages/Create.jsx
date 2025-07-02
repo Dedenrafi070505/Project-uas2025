@@ -9,7 +9,7 @@ function CreateMovie() {
     poster: "",
   });
 
-  const [movie, setMovie] = useState(null); // state untuk menampilkan movie yang ditambahkan
+  const [movie, setMovie] = useState(null); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,7 +18,7 @@ function CreateMovie() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setMovie(form); // simpan movie ke state
+    setMovie(form); 
     setForm({
       id: "",
       title: "",
