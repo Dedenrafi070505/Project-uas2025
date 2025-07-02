@@ -12,7 +12,7 @@ function Hero() {
   useEffect(() => {
     const API_KEY = import.meta.env.VITE_API_KEY;
 
-    // Ambil movie trending dulu
+    
     async function fetchTrendingMovies() {
       const URL = `https://api.themoviedb.org/3/trending/movie/day?api_key=${API_KEY}`;
       const response = await axios.get(URL);
