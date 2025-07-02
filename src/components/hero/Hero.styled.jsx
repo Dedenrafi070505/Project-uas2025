@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-// Kontainer utama dengan nuansa gelap dan tegas
+
 export const Container = styled.div`
   padding: 2rem;
   background: linear-gradient(135deg, #0f172a, #1e293b); /* dark navy-blue gradient */
