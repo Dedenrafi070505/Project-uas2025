@@ -1,7 +1,7 @@
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
-import Hero from "../../components/hero/Hero";
-import Movies from '../../components/movies/Movies'
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import Hero from "../../components/Hero/Hero";
+import Movies from '../../components/Movies/Movies'
 import { useEffect, useState } from "react";
 import axios from "axios";
 

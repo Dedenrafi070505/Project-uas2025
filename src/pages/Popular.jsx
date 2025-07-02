@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Hero from "../components/hero/Hero";
+import Hero from "../components/Hero/Hero";
 import Movies from "../components/Movies/Movies";
 
 function PopularMovie() {
